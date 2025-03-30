@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitleTextAppearance" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
