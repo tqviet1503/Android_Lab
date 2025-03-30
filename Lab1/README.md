@@ -1,59 +1,47 @@
-Student Information Collection App
+# Student Information Collection App
 
-📌 Overview
+## Overview
 
 This Android application is designed to collect personal information from students in a structured and efficient manner. The app provides a user-friendly interface for inputting and submitting student details.
 
-✨ Features
+## Features
 
-User-Friendly Interface: Built with ConstraintLayout for an intuitive and visually appealing experience.
+- **User-Friendly Interface**: Built with **ConstraintLayout** for an intuitive and visually appealing experience.
 
-Structured Data Entry:
+- **Real-Time Input Feedback**: **EditText** fields include borders and shadows for enhanced user interaction.
 
-Full Name
+- **Structured Data Entry**:
+  - Full Name
+  - Student ID (MSSV)
+  - Class
+  - Phone Number
+  - Year of Study (selected via **RadioButton**)
+  - Major (selected via **RadioButton**)
+  - Personal Development Plan (scrollable **EditText** for long text input)
 
-Student ID (MSSV)
+- **Easy Submission**: A "Submit Information" button allows users to efficiently send entered data.
 
-Class
+## How to Use
 
-Phone Number
+1. **Open the App**: The main screen displays an interface for collecting student information.
 
-Year of Study (selected via RadioButton)
+2. **Enter Details**:
+   - Input the full name, student ID, class, and phone number.
+   - Select the year of study using the provided **RadioButton**.
+   - Choose a major using the available **RadioGroup**.
+   - Enter a personal development plan in the designated **EditText** field.
 
-Major (selected via RadioButton)
+3. **Submit Information**: After completing all fields, tap the "Submit Information" button to process the data.
 
-Personal Development Plan (scrollable EditText for long text input)
+## Technologies Used
 
-Easy Submission: A "Submit Information" button allows users to efficiently send entered data.
+- **Android Studio** for development
+- **Java/Kotlin** as the programming language
+- **ConstraintLayout** for UI design
 
-📖 How to Use
+## 🚀 Future Enhancements
 
-Open the App: The main screen displays an interface for collecting student information.
+- Implement data validation and error handling.
+- Add database or backend storage for collected information.
+- Improve UI responsiveness and accessibility.
 
-Enter Details:
-
-Input the full name, student ID, class, and phone number.
-
-Select the year of study using the provided RadioButton.
-
-Choose a major using the available RadioGroup.
-
-Enter a personal development plan in the designated EditText field.
-
-Submit Information: After completing all fields, tap the "Submit Information" button to process the data.
-
-🛠 Technologies Used
-
-Android Studio for development
-
-Java/Kotlin as the programming language
-
-ConstraintLayout for UI design
-
-🚀 Future Enhancements
-
-Implement data validation and error handling.
-
-Add database or backend storage for collected information.
-
-Improve UI responsiveness and accessibility.
