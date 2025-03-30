@@ -1,36 +1,59 @@
-# Student Information Collection
+Student Information Collection App
 
-This is an Android application to collect information from students. Here are the details about the project:
+📌 Overview
 
-## Objective
+This Android application is designed to collect personal information from students in a structured and efficient manner. The app provides a user-friendly interface for inputting and submitting student details.
 
-- Collect personal information from students including:
-  - Full Name
-  - Student ID (MSSV)
-  - Class
-  - Phone Number
-  - Year of Study
-  - Major
-  - Personal Development Plan
+✨ Features
 
-## Usage
+User-Friendly Interface: Built with ConstraintLayout for an intuitive and visually appealing experience.
 
-1. **Open the App**: You will see the information collection interface with input fields.
+Structured Data Entry:
 
-2. **Enter Information**:
-   - Enter the full name, student ID, class, and phone number into the corresponding `EditText`.
-   - Select the year of study by tapping one of the `RadioButton` in the "Year:" `RadioGroup`.
-   - Choose a major by tapping one of the `RadioButton` in the "Choose Major:" `RadioGroup`.
-   - Enter the personal development plan into the "Personal Development Plan" `EditText`.
+Full Name
 
-3. **Submit Information**: After entering all the information, tap the "Submit Information" button to send the entered data.
+Student ID (MSSV)
 
-## Key Features
+Class
 
-- **User-Friendly Interface**: Utilizes `ConstraintLayout` to create an easy-to-use and visually appealing interface.
-- **Intuitive Feedback**: `EditText` fields have borders and shadows to provide feedback to the user when entering data.
-- **Year and Major Selection**: Uses `RadioGroup` for easy selection of the year of study and major.
-- **Personal Development Plan Entry**: Provides an `EditText` for entering long text, with scrolling capability when exceeding screen size.
+Phone Number
 
+Year of Study (selected via RadioButton)
 
+Major (selected via RadioButton)
 
+Personal Development Plan (scrollable EditText for long text input)
+
+Easy Submission: A "Submit Information" button allows users to efficiently send entered data.
+
+📖 How to Use
+
+Open the App: The main screen displays an interface for collecting student information.
+
+Enter Details:
+
+Input the full name, student ID, class, and phone number.
+
+Select the year of study using the provided RadioButton.
+
+Choose a major using the available RadioGroup.
+
+Enter a personal development plan in the designated EditText field.
+
+Submit Information: After completing all fields, tap the "Submit Information" button to process the data.
+
+🛠 Technologies Used
+
+Android Studio for development
+
+Java/Kotlin as the programming language
+
+ConstraintLayout for UI design
+
+🚀 Future Enhancements
+
+Implement data validation and error handling.
+
+Add database or backend storage for collected information.
+
+Improve UI responsiveness and accessibility.
